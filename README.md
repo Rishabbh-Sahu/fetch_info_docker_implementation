@@ -1,4 +1,4 @@
-# fetch_info_docker_implementation
+# Text pre-processing implemented with docker container
 Simple approach to fetch certain info from the text, provided to it and integration with the docker.
 
 #### Steps to be followed -
