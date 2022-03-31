@@ -1,7 +1,7 @@
 # Text pre-processing implemented with docker container
 Simple approach to fetch certain info from the text, provided to it and integration with the docker.
 
-#### Steps to be followed -
+#### Steps 
  - Build the docker image
  ```buildoutcfg
 docker build -t flask-rest-api .
@@ -22,4 +22,5 @@ docker ps -a
 ```buildoutcfg
 docker logs <CONTAINER ID OR CONTAINER NAME>
 ```
-#### Reference - https://medium.com/nerd-for-tech/deploy-your-flask-rest-api-on-docker-909f5cfa8b0b
+#### Reference
+https://medium.com/nerd-for-tech/deploy-your-flask-rest-api-on-docker-909f5cfa8b0b
