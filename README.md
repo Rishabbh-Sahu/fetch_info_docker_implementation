@@ -1,5 +1,5 @@
 # Text pre-processing implemented with docker container
-A simplest illustration of deploying any model (or a rule based engine in this scenario) using docker container. The main focus of this repo is to leverage ``Docker Images`` to run the solutions anywhere you want. Here, a text pre-processing method is been used, to filter only alphanumeric characters within the input text and deployed in dockeer container. 
+A simplest illustration of deploying any model (or a rule based engine in this scenario) using docker container. The main focus of this repo is to leverage ``Docker Images`` to run/host the solution anywhere. Here, a text pre-processing method is been used, to filter only alphanumeric characters within the input text and deployed in dockeer container. 
 
 #### Steps 
  - Build the docker image
