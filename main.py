@@ -13,6 +13,9 @@ app = Flask(__name__)
 
 # initialize the app
 def initialize():
+    """
+    Start the app with the following message
+    """
     print('<server is initialized>')
 
 
