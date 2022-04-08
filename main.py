@@ -22,6 +22,9 @@ def initialize():
 # Default landing page with caption
 @app.route('/', methods=['GET'])
 def hello():
+    """
+    Messages to be displayed in the landing page
+    """
     response = {'Welcome': 'Hello from text pre-processing routine',}
     return jsonify(response)
 
