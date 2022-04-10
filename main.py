@@ -31,6 +31,9 @@ def hello():
 
 @app.route('/fetch', methods=['POST'])
 def fetch():
+    """
+    Function to excecute regex model and return everything but alphanumeric characters in the input string
+    """
     input_json = request.json
     input_txt = input_json["text"]
     pre_processed_text = predict(input_txt)
