@@ -10,7 +10,7 @@ docker build -t flask-rest-api .
 ```buildoutcfg
 docker images
 ```
- - Run the docker image
+ - Run the docker image. Worth to note the mapping of the ports from 5000-local to 5000-docker 
 ```buildoutcfg
 docker run -d -p 5000:5000 flask-rest-api
 ```
