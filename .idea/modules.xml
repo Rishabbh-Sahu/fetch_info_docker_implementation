@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/fetch_info_docker_implementation.iml" filepath="$PROJECT_DIR$/.idea/fetch_info_docker_implementation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/text_preprocessing_docker_implementation.iml" filepath="$PROJECT_DIR$/.idea/text_preprocessing_docker_implementation.iml" />
     </modules>
   </component>
 </project>
