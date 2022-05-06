@@ -16,7 +16,8 @@ def logging_info(orig_func):
 
     return wrapper
 
-
+# Implemented decorator to log details without impacting the actual 
+# functionality of the predict function 
 @logging_info
 def predict(input_text: str) -> str:
     """
