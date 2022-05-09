@@ -5,7 +5,7 @@ Created on Wed Mar 30 2022
 """
 import re
 
-
+# Dacorator definition to log in text to be processed
 def logging_info(orig_func):
     import logging
     logging.basicConfig(filename='{}.log'.format(orig_func.__name__), level=logging.INFO)
