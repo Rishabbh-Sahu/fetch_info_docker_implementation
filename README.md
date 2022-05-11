@@ -22,5 +22,10 @@ docker ps -a
 ```buildoutcfg
 docker logs <CONTAINER ID OR CONTAINER NAME>
 ```
+
+#### Requesting to the API
+```
+curl --location --request POST 'http://0.0.0.0:5000/fetch' --header 'Content-Type: application/json' --data-raw '{"text": "what7%$$"}'
+```
 #### Reference
 https://medium.com/nerd-for-tech/deploy-your-flask-rest-api-on-docker-909f5cfa8b0b
