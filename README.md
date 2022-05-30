@@ -18,6 +18,10 @@ docker run -d -p 5000:5000 flask-rest-api
 ```buildoutcfg
 docker ps -a
 ```
+ - Run unit-test using docker 
+```buildoutcfg
+docker run flask-rest-api py.test
+```
  - To show all the logs for the container 
 ```buildoutcfg
 docker logs <CONTAINER ID OR CONTAINER NAME>
