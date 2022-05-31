@@ -18,7 +18,7 @@ docker run -d -p 5000:5000 flask-rest-api
 ```buildoutcfg
 docker ps -a
 ```
- - Run unit-test using docker 
+ - Run **unit-test** using docker 
 ```buildoutcfg
 docker run flask-rest-api py.test
 ```
