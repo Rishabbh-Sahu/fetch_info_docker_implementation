@@ -8,12 +8,12 @@ import pytest
 from model import predict
 
 
-@pytest.mark.parametrize('text, true_entity',
+@pytest.mark.parametrize('text, preprocessed_text',
                          [
                              ('4&&9', '49'),
                              ('alph@a£numeric', 'alphanumeric'),
                              ('((&*(text', 'text'),
                          ],
                          )
-def test_model(text, true_entity):
-    assert predict(text) == true_entity
+def test_model(text, preprocessed_text):
+    assert predict(text) == preprocessed_text
