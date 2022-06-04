@@ -48,6 +48,7 @@ def fetch():
 
 
 if __name__ == '__main__':
+    # Initialize the app first
     initialize()
     # Run app
     app.run(host='0.0.0.0', port=5000, debug=False)
