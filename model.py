@@ -29,4 +29,4 @@ def predict(input_text: str) -> str:
     :param input_text: input text
     :return: alphanumeric string
     """
-    return re.sub(r'\W', '', str(input_text))
+    return re.sub(r"\W", "", str(input_text))
