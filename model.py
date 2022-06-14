@@ -15,7 +15,7 @@ def logging_info(orig_func):
     logging.basicConfig(filename="{}.log".format(orig_func.__name__), level=logging.INFO)
 
     def wrapper(txt: str):
-        logging.info('Text processed: {}'.format(txt))
+        logging.info("Text processed: {}".format(txt))
         return orig_func(txt)
 
     return wrapper
