@@ -8,8 +8,7 @@ import re
 
 def logging_info(orig_func):
     """
-    Dacorator used to log-in text info going to be 
-    processed everytime this routine is called 
+    Dacorator used to log-in text info, processed everytime this routine is called 
     """
     import logging
     logging.basicConfig(filename="{}.log".format(orig_func.__name__), level=logging.INFO)
