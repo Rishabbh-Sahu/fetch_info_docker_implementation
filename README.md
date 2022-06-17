@@ -26,7 +26,10 @@ docker run flask-rest-api py.test
 ```buildoutcfg
 docker logs <CONTAINER ID OR CONTAINER NAME>
 ```
-
+ - Stop docker container 
+```buildoutcfg
+docker stop
+```
 #### Requesting to the API
 ```
 curl --location --request POST 'http://0.0.0.0:5000/fetch' --header 'Content-Type: application/json' --data-raw '{"text": "what7%$$"}'
