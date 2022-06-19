@@ -30,6 +30,9 @@ docker logs <CONTAINER ID OR CONTAINER NAME>
 ```buildoutcfg
 docker stop
 ```
+#### For more docker related commands, follow the link below
+https://docs.docker.com/reference/
+
 #### Requesting to the API
 ```
 curl --location --request POST 'http://0.0.0.0:5000/fetch' --header 'Content-Type: application/json' --data-raw '{"text": "what7%$$"}'
