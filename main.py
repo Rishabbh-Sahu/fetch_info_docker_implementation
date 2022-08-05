@@ -37,7 +37,7 @@ def fetch():
     input_json = request.json
     input_txt = input_json["text"]
     pre_processed_text = predict(input_txt)
-
+    # Create the respone as the output of this service
     response = {
         "pre_processed_text": {
             "alphanumeric_text": pre_processed_text,
